@@ -32,7 +32,7 @@ jobs:
     - name: install yarn
       run: sudo apt update && sudo apt install yarn
     - name: build React App
-      run: yarn build
+      run: yarn run
     - name: Install surge
       run: npm install -g surge
     - name: run surge
