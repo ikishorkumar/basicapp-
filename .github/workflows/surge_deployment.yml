@@ -40,6 +40,6 @@ jobs:
       run: npm install -g surge
     
     - name: run surge
-      run: surge ./build simplebasicapp.surge.su ${{sectrets.SURGE_TOKEN}}
+      run: surge ./build simplebasicapp.surge.su --token ${{sectrets.SURGE_TOKEN}}
       
 
